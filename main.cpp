@@ -6,12 +6,18 @@
 
 int main() {
 
-	Graph<int> g;
+	Graph<char> g;
 
-	for (int i = 0;i<20; i++) {
-		g.insert(i,i+1);
-	}
+	g.insert('c','a');
+	g.insert('c','d');
+	g.insert('c','a');
+	g.insert('a','b');
+	g.insert('a','a');
+	g.insert('b','d');
 
+	g.print();
+
+	std::cout << "graph has size = " << g.size() << std::endl;
 
 	Node<int> n;	
 

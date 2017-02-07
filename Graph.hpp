@@ -8,6 +8,8 @@ public:
 	Graph(); // default constructor
 	int find(const item_type& x); // return index of x if it is in the adjacency list, -1 otherwise
 	void insert(item_type x, item_type y); // insert a directed edge from vertex x to y
+	void print(); // display nodes and their adjacency lists 
+	int size();
 
 private:
 	static const int kMax = 20;
