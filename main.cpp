@@ -6,9 +6,12 @@
 
 int main() {
 
-	Graph<char> g;
+	Graph<int> g;
 
-	std::cout << "count = " << g.find('c') << std::endl;
+	for (int i = 0;i<20; i++) {
+		g.insert(i,i+1);
+	}
+
 
 	Node<int> n;	
 

@@ -9,8 +9,6 @@ public:
 	Node();
 	Node(item_type x);
 	const item_type& getdata(); // a reference to the data field
-
-private:
 	item_type data;
 	Node* prev, * next;
 };

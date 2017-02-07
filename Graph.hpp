@@ -10,9 +10,9 @@ public:
 	void insert(item_type x, item_type y); // insert a directed edge from vertex x to y
 
 private:
-	static const int kMax = 10000;
-	int _size;
-	Node<item_type> node[kMax];
+	static const int kMax = 20;
+	int _size;	
+	Node<item_type>* node[kMax+1]; // the plus 1 for the case that the last node we add links with an also-unseen node 
 	
 
 };

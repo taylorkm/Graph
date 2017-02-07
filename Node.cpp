@@ -25,6 +25,3 @@ template<class item_type>
 const item_type& Node<item_type>::getdata(){	
 	return data;
 }
-
-
-
