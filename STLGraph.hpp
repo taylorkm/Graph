@@ -1,6 +1,5 @@
 #ifndef STLGRAPH_H
 #define STLGRAPH_H
-#include "Node.hpp"
 #include <map>
 #include <vector>
 
@@ -14,7 +13,7 @@ public:
 	void print();
 	
 private:
-	std::map<item_type, std::vector<item_type> > node;
+	std::map< item_type , std::vector <item_type> > node;
 };
 
 #include "STLGraph.cpp"

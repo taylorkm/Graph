@@ -26,13 +26,6 @@ int main() {
 
 	std::cout << "graph has size = " << g.size() << std::endl;
 
-	Node<int> n;	
-
-	Node<int> m(3);
-	Node<char> p('q');
-	Node<std::string> q("word");
-
-
 	/* Using graph built with help from STL */
 
 	STLGraph<char> sg;

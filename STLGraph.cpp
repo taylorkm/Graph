@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 #include "STLGraph.hpp"
-#include "Node.hpp"
 
 
 template<class item_type>
